@@ -14,7 +14,6 @@ class Solution:
                 continue            
             if element + 1 == A[index+1]:
                 current_seq_len += 1
-                #print element, current_seq_len, max_seq_len
             else:
                 if current_seq_len > max_seq_len:
                     max_seq_len = current_seq_len
